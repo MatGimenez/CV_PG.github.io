@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.encabezado img{
+    width: 40rem;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.rrss{
+    margin-top: 1rem;
+    margin-left: .1rem;
+    display: flex;
+    font-size: 30px;
+    gap: 1rem ;
+}
+.rrss a{
+    text-decoration: none;
+    color: #497174;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+.titulo1{
+    font-size: 5rem;
+    color: #EB6440;
+}
+.titulo2{
+    font-size: 3.5rem;
+    color: #497174;
+}
+.resumen{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.seccion-estudios{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 3rem;
+}
+.mis-estudios{
+    text-align: center;
+    align-content: center;
+}
+.estudios{
+    border-radius: 20px;
+    background-color: #D6E4E5;
+    color: #497174;
+}
+.seccion-habilidades{
+    text-align: center;
+    align-content: center;
+}
+.seccion-proyectos{
+    text-align: center;
+    align-content: center;
+}
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+footer{
+    background-color: #497174;
+    color: #D6E4E5;
+}
+
+/* MEDIAS QUERIES */
+@media (max-width: 1250px) {
+    .encabezado img{
+        width: 30rem;
+    }
+    .titulo1{
+        font-size: 3rem;
+    }
+    .titulo2{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .encabezado img{
+        justify-content: center;
+        width: 20rem;
+    }
+    .titulo1{
+        font-size: 2rem;
+    }
+    .titulo2{
+        font-size: 1.2rem;
+    }
+    .descripcion{
+        text-align: center;
+    }
+    .rrss{
+        justify-content: center;
+        gap: 1.5rem ;
+    }
+}
