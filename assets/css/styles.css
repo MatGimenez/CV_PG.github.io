@@ -101,6 +101,10 @@ footer{
     .titulo2{
         font-size: 2rem;
     }
+    .resumen img{
+        width: 20rem;
+
+    }
 }
 
 @media (max-width: 768px) {
